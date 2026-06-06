@@ -108,7 +108,7 @@ export default function HeroCarousel() {
           <p className="mt-6 text-base lg:text-lg text-white/70 leading-relaxed max-w-xl transition-all duration-500 delay-300">
             {slide.description}
           </p>
-          <div className="mt-8 flex flex-col sm:flex-row gap-4 transition-all duration-500 delay-[400ms]">
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 transition-all duration-500 delay-&lsqb;400ms&rsqb;">
             <Link
               to={slide.primaryCta.link}
               className="inline-flex items-center justify-center bg-accent text-white px-8 py-3.5 text-sm font-semibold tracking-wide hover:bg-accent/90 transition-colors"

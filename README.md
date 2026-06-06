@@ -33,6 +33,7 @@ The static output is generated in `dist/`.
 - Set the build command to `npm run build`
 - Set the publish directory to `dist`
 - Set the root directory to the repository root
+- Do not use `npx wrangler deploy` for Cloudflare Pages — this is a static Vite site, not a Workers project
 
 ## Notes
 
