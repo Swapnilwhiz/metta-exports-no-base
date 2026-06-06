@@ -35,7 +35,15 @@ The static output is generated in `dist/`.
 - Set the root directory to the repository root
 - Do not use `npx wrangler deploy` for Cloudflare Pages — this is a static Vite site, not a Workers project
 
+## Deploy to Cloudflare Workers
+
+This project also supports Cloudflare Workers deployment using a worker that serves the `dist/` static build output.
+
+- Build locally first with `npm run build`
+- Deploy with `npm run deploy:worker`
+- Configure your Cloudflare account in `wrangler` before deploying
+
 ## Notes
 
 - This version no longer depends on Base44 app proxy settings.
-- The Cloudflare deployment is a static site build from Vite.
+- The Cloudflare Workers deployment serves the Vite static site from `dist/`.

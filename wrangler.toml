@@ -1,0 +1,6 @@
+name = "metta-exports-no-base"
+main = "src/worker.js"
+compatibility_date = "2026-06-06"
+type = "javascript"
+workers_dev = true
+site = { bucket = "./dist" }
